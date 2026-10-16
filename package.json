@@ -1,0 +1,10 @@
+{
+  "name": "edris-voice-relay",
+  "private": true,
+  "version": "1.0.0",
+  "description": "EDRIS fast phone voice: WebSocket relay between Twilio ConversationRelay and edrisai.com",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
